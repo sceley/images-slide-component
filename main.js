@@ -81,10 +81,9 @@
 	window.Slider = Slider;
 })(window);
 
-let images = [];
-for(let i = 1; i <= 10; i++){
-	images.push(`images/${i}.jpg`);
-}
+let images = ['images/1.JPG', 'images/2.jpg', 
+'images/3.JPG', 'images/4.JPG', 'images/5.JPG', 
+'images/6.JPG', 'images/7.JPG', 'images/8.JPG', 'images/9.jpg'];
 let slider1 = new Slider({
 	container: document.querySelector('#container'),
 	images
