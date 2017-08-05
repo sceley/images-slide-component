@@ -82,10 +82,9 @@
 })(window);
 
 let images = [];
-for(let i = 1; i <= 8; i++){
-	images.push(`images/${i}.JPG`);
+for(let i = 1; i <= 10; i++){
+	images.push(`images/${i}.jpg`);
 }
-images[1] = 'images/2.jpg';
 let slider1 = new Slider({
 	container: document.querySelector('#container'),
 	images
