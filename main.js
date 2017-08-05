@@ -83,8 +83,9 @@
 
 let images = [];
 for(let i = 1; i <= 8; i++){
-	images.push(`./images/${i}.JPG`);
+	images.push(`images/${i}.JPG`);
 }
+images[1] = 'images/2.jpg';
 let slider1 = new Slider({
 	container: document.querySelector('#container'),
 	images
