@@ -6,7 +6,7 @@
 		this.event();
 	};
 	Slider.prototype = {
-		constructor: 'Slider',
+		constructor: Slider,
 		init () {
 			this.images.forEach(image => {
 				let img = document.createElement('img');
